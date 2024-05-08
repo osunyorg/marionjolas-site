@@ -5,7 +5,7 @@ items:
   target: "/actualites/"
   kind: page
   children: []
-- title: Projets
+- title: Works
   target: "/projets/"
   kind: page
   children: []
