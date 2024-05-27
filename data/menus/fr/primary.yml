@@ -5,7 +5,7 @@ items:
   target: "/actualites/"
   kind: page
   children: []
-- title: Projets
+- title: Works
   target: "/projets/"
   kind: page
   children: []
@@ -15,6 +15,10 @@ items:
   children: []
 - title: Organisations
   target: "/organisations/"
+  kind: page
+  children: []
+- title: Agenda
+  target: "/agenda/"
   kind: page
   children: []
 
