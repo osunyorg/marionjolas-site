@@ -6,4 +6,10 @@ params:
   summary:
     position: hero
   search:
-    active: false  
+    active: true
+  breadcrumb:
+    position: hero-start
+    footer: 
+  menu:
+    dropdown:
+      linkToLevel1: true 
