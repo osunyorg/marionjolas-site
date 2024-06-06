@@ -5,10 +5,8 @@ removePathAccents: true
 params:
   summary:
     position: hero
-  search:
-    active: true
   breadcrumb:
-    position: hero-start
+    position: none
     footer: 
   menu:
     dropdown:

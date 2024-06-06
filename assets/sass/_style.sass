@@ -1,0 +1,18 @@
+
+.body
+    overflow: hidden
+    
+@media (min-width: 768px) 
+    .projects__section .projects,
+    .projects_categories__term .projects 
+        display: grid
+        grid-gap: var(--grid-gutter) var(--grid-gutter)
+        grid-template-columns: repeat(4, 1fr)
+    .project-content
+        display: none
+    .media 
+        height: 100px
+        width: 100px
+        overflow: hidden
+        object-fit: cover
+
