@@ -1,18 +1,16 @@
 
-.body
-    overflow: hidden
-    
-@media (min-width: 768px) 
-    .projects__section .projects,
-    .projects_categories__term .projects 
-        display: grid
-        grid-gap: var(--grid-gutter) var(--grid-gutter)
-        grid-template-columns: repeat(4, 1fr)
-    .project-content
-        display: none
-    .media 
-        height: 100px
-        width: 100px
-        overflow: hidden
-        object-fit: cover
+footer#document-footer .logo .logo-text, header#document-header .logo .logo-text 
+    font-weight: 400
+    transition: font-weight 0.3s ease
+    &:hover
+        font-weight: 700
+
+.menu
+    .nav-level-1
+        li
+            a
+                font-weight: 400
+                transition: font-weight 0.3s ease
+                &:hover
+                    font-weight: 700
 

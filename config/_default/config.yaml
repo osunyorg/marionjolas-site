@@ -3,11 +3,12 @@ paginate: 18
 enableRobotsTXT: true
 removePathAccents: true
 params:
+  breadcrumb:
+    position: after-hero
   summary:
     position: hero
-  breadcrumb:
-    position: none
-    footer: 
-  menu:
-    dropdown:
-      linkToLevel1: true 
+  search:
+    active: false
+  logo: 
+    header: ''
+    footer: ''
