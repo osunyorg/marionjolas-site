@@ -5,8 +5,4 @@ items:
   target: "/actualites/"
   kind: page
   children: []
-- title: Works
-  target: "/projets/"
-  kind: page
-  children: []
 
