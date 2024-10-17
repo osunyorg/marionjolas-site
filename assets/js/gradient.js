@@ -2,7 +2,7 @@ function updateGradient(x, y) {
     var { innerWidth: width, innerHeight: height } = window;
 
     var gradient = `
-      radial-gradient(circle at ${x}px ${y}px, rgba(255, 74, 195, 1) 0%, rgba(254, 80, 7, 0.7) 2%, transparent 30%)
+      radial-gradient(circle at ${x}px ${y}px, rgba(255, 74, 195, 0.7) 0%, rgba(254, 80, 7, 0.7) 1.5%, transparent 30%)
   `;
 
     document.querySelector('body').style.background = gradient;
