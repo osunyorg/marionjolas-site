@@ -54,15 +54,23 @@ contents_reading_time:
   text: >-
     moins d'une minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Last project
-    slug: "last-project"
-    position: 0
-    rank: 2
+    slug: >-
+      last-project
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: projects
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -87,7 +95,6 @@ contents:
           file: "projects/2023-the-body-as-an-interface.html"
         - slug: "balance"
           file: "projects/2021-balance.html"
-
 
 
 
