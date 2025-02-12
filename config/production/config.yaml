@@ -2,6 +2,11 @@
 
 baseURL: https://site.marionjolas.osuny.site
 
+## OSUNY
+osuny:
+  website:
+    id: d767aa46-c808-4373-b68f-0a2bd8b7a6d3
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
