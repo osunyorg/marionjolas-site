@@ -1,7 +1,5 @@
 theme: osuny
-paginate: 18
-enableRobotsTXT: true
-removePathAccents: true
+_merge: deep
 params:
   breadcrumb:
     position: after-hero
@@ -9,6 +7,6 @@ params:
     position: hero
   search:
     active: false
-  logo: 
+  logo:
     header: ''
     footer: ''
